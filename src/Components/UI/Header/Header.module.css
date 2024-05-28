@@ -1,0 +1,48 @@
+.logo_circle {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 999;
+  margin-left: 50px;
+  padding: 10px auto 10px 50px;
+
+}
+
+.logo_circle img {
+  height: 83px;
+  width: 83px;
+}
+
+.header_nav {
+  background-color: #333331;
+  height: 100px;
+  width: 100%;
+  
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.name_company  p {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  margin-right: 600px;
+  align-items: center;
+  
+}
+
+.nav_bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  color: white;
+  font-size: 14px;
+  margin-right: 100px;
+}
