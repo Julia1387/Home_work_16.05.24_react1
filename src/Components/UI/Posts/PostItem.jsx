@@ -1,5 +1,6 @@
 import React from "react";
 import cls from "../Posts/Posts.module.css";
+import App from "../../../App";
 
 function PostItem(props) {
   const { username, phone, email } = props;

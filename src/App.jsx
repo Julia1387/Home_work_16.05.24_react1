@@ -4,8 +4,9 @@ import CustomButton from "./Components/UI/Posts/CustomButton/CustomButton";
 import Header from "./Components/UI/Header/Header";
 import Footer from "./Components/UI/Footer/Footer";
 import Posts from "./Components/UI/Posts/Posts";
-import PostItem from "./Components/UI/Posts/PostItem";
+import PostItem from "../src/Components/UI/Posts/PostItem";
 import cls from "./Components/UI/Posts/CustomButton/CustomButton.module.css";
+import Home from "./Components/UI/Pages/Home/Home";
 
 function App() {
   const [isRendered, setIsRendered] = useState(false);
@@ -25,9 +26,16 @@ function App() {
           Fetch
         </button>
         {isRendered && (
-                   <Posts onHandleClick={() => setIsRendered(isRendered)} />
+          <Posts onHandleClick={() => setIsRendered(isRendered)} />
         )}
       </div>
+
+      <main>
+        <section>
+          <h3></h3>
+        </section>
+      </main>
+
       <Footer />
     </>
   );
